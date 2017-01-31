@@ -1,0 +1,11 @@
+Question 1: In question 1, in order to to allow the type of “features” as a generic input parameter, I am using Commandline parsing. Please
+    find the example of 1 such command as follow :
+    python VDMS.py hourly
+    In order to get output for different features, change the last argument of given commandline and corresponding output will come.
+    If you put argument that is not from the features in the given URL, error message will be generated.
+
+
+Question 2: In this question, I am passing range(to be scanned) of IP addresses as String and excluded IP addresses as list through commandline.
+    If subnet is greater than 32, appropriate error message is displayed. I am also displaying the Excluded IPs, Out of range IPs and Scanned IPs.
+    Example of command to run this file:
+    python VDMS_2.py 256.168.0.1/24 192.168.0.1,192.168.1.1,19.168.3.1,192.168.1.2,192.168.0.2,192.168.0.3,192.168.0.4
